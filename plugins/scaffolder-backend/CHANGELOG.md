@@ -1,5 +1,14 @@
 # @backstage/plugin-scaffolder-backend
 
+## 0.15.8
+
+### Patch Changes
+
+- 42c618abf6: Use `resolveSafeChildPath` in the `fetchContents` function to forbid reading files outside the base directory when a template is registered from a `file:` location.
+- Updated dependencies
+  - @backstage/integration@0.6.8
+  - @backstage/plugin-catalog-backend@0.17.0
+
 ## 0.15.7
 
 ### Patch Changes
